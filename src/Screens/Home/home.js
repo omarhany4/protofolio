@@ -22,14 +22,14 @@ export default function Home() {
 
   return (
     <Container fluid style={{ backgroundColor: "#11242f" }}>
-      <Row style={{ height: "100vh" }}>
+      <Row>
         <div className="App">
           <Navbar />
           <div
             style={{
+              height: "100vh",
               display: "flex",
               justifyContent: "space-between",
-              height: "90%",
               alignItems: "center",
               marginLeft: "5%",
               marginRight: "10%",
@@ -48,7 +48,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2 }}
-                style={{ fontSize: 70 }}
+                style={{ fontSize: "600%" }}
               >
                 Hello! , I am Omar Elish
               </motion.h1>
@@ -57,7 +57,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", color: "#dfe667" }}
+                style={{ marginTop: "3%", color: "#dfe667", fontSize: "300%" }}
               >
                 Front End
                 <Typewriter
@@ -71,7 +71,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", flexWrap: "wrap", fontSize: 18 }}
+                style={{ marginTop: "3%", flexWrap: "wrap", fontSize: "140%" }}
               >
                 I am React/React native developer with experience in Firebase,
                 Redux and API integration. I also have the basic knowledge
@@ -152,28 +152,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <motion.div
-              style={{
-                borderWidth: 10,
-                height: 500,
-                borderColor: "red",
-                borderStyle: "solid",
-              }}
-              animate={{
-                rotate: [0, 0, 180, 180, 0],
-                borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-              }}
-              transition={{ duration: 5 }}
-            >
-              <motion.img
-                className="box"
-                initial={{ opacity: 0.2, x: "-100%" }}
-                animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
-                transition={{ duration: 2 }}
-                src={require("../../GlobalComponents/pp.jfif")}
-                style={{ height: 400, borderRadius: 50 }}
-              />
-            </motion.div>
+            <motion.img
+              className="box"
+              initial={{ opacity: 0.2, x: "-100%" }}
+              animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
+              transition={{ duration: 2 }}
+              src={require("../../GlobalComponents/pp.jfif")}
+              style={{ height: "30%", borderRadius: 50 }}
+            />
           </div>
         </div>
       </Row>

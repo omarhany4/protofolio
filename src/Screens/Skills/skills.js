@@ -38,7 +38,7 @@ export default function skills() {
             className="App"
             style={{ marginBottom: "10%", alignSelf: "center", color: "white" }}
           >
-            React <span style={{ color: "#54c2cc" }}>Js</span>
+            Codding <span style={{ color: "#54c2cc" }}>Skills</span>
           </h1>
           <div
             className="App"
@@ -48,8 +48,8 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: 24 }}>HTML</h1>
+            <h1 style={{ fontSize: 24 }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
@@ -59,7 +59,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "80%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
@@ -71,8 +71,8 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: 24 }}>CSS</h1>
+            <h1 style={{ fontSize: 24 }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
@@ -82,7 +82,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "80%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
@@ -94,7 +94,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
+            <h1 style={{ fontSize: 24 }}>JavaScript</h1>
             <h1 style={{ fontSize: 24 }}>95%</h1>
           </div>
           <div className="progress-div">
@@ -105,7 +105,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "95%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
@@ -118,7 +118,7 @@ export default function skills() {
             className="App"
             style={{ marginBottom: "10%", alignSelf: "center", color: "white" }}
           >
-            React <span style={{ color: "#54c2cc" }}>Native</span>
+            Development <span style={{ color: "#54c2cc" }}>Skills</span>
           </h1>
           <div
             className="App"
@@ -139,7 +139,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "95%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
@@ -151,7 +151,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
+            <h1 style={{ fontSize: 24 }}>Mobile App development</h1>
             <h1 style={{ fontSize: 24 }}>95%</h1>
           </div>
           <div className="progress-div">
@@ -162,7 +162,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "95%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
@@ -174,8 +174,8 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: 24 }}>Graphic Design</h1>
+            <h1 style={{ fontSize: 24 }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
@@ -185,7 +185,7 @@ export default function skills() {
                 borderRadius: 5,
                 width: "10%",
               }}
-              animate={{ width: "90%" }}
+              animate={{ width: "80%" }}
               transition={{ duration: 2 }}
             ></motion.div>
           </div>
