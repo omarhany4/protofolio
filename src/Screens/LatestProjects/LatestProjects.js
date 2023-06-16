@@ -30,17 +30,17 @@ export default function LatestProjects() {
           <h1
             className="App"
             style={{
-              marginTop: "5%",
+              marginTop: "3vh",
               color: "white",
               justifySelf: "center",
-              fontSize: "400%",
+              fontSize: "4vw",
             }}
           >
             Latest <span style={{ color: "#54c2cc" }}>Projects</span>
           </h1>
         </Col>
       </Row>
-      <Row style={{ marginTop: "4%", alignItems: "center" }} xs={1}>
+      <Row style={{ marginTop: "8vh", alignItems: "center" }} xs={1}>
         <Col
           xs={1}
           lg={{ offset: 1, span: 5 }}
@@ -53,24 +53,24 @@ export default function LatestProjects() {
           <fieldset
             style={{
               borderStyle: "solid",
-              borderWidth: 10,
+              borderWidth: "0.3vw",
               borderColor: "#54c2cc",
-              borderRadius: 30,
+              borderRadius: "1vw",
               display: "flex",
               flexDirection: "column",
-              padding: 20,
+              padding: "0.8vw",
             }}
           >
             <legend
               className="App"
               style={{
                 color: "#54c2cc",
-                marginTop: "-55px",
-                paddingLeft: 35,
+                marginTop: "-4vh",
+                paddingLeft: "1.8vw",
                 backgroundColor: "#11242f",
-                width: "75%",
+                width: "13vw",
                 alignSelf: "center",
-                fontSize: 36,
+                fontSize: "1.3vw",
               }}
             >
               React Web App
@@ -80,7 +80,7 @@ export default function LatestProjects() {
         </Col>
         <Col
           xs={1}
-          lg={{ offset: 1, span: 5 }}
+          lg={{ offset: 0, span: 5 }}
           style={{
             display: "flex",
             flexDirection: "column",
@@ -90,24 +90,24 @@ export default function LatestProjects() {
           <fieldset
             style={{
               borderStyle: "solid",
-              borderWidth: 10,
+              borderWidth: "0.3vw",
               borderColor: "#54c2cc",
-              borderRadius: 30,
+              borderRadius: "1vw",
               display: "flex",
               flexDirection: "column",
-              padding: 20,
+              padding: "0.8vw",
             }}
           >
             <legend
               className="App"
               style={{
                 color: "#54c2cc",
-                marginTop: "-55px",
-                paddingLeft: 35,
+                marginTop: "-3.8vh",
+                paddingLeft: "1.1vw",
                 backgroundColor: "#11242f",
-                width: "75%",
+                width: "13vw",
                 alignSelf: "center",
-                fontSize: 36,
+                fontSize: "1.3vw",
               }}
             >
               React Native App

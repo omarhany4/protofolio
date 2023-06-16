@@ -47,7 +47,7 @@ export default function Contact() {
           <CssBaseline />
           <Box
             sx={{
-              marginTop: 8,
+              marginTop: "1vw",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
@@ -56,7 +56,7 @@ export default function Contact() {
             <Typography component="h1" variant="h5">
               <h1
                 className="App"
-                style={{ marginTop: "5%", color: "white", fontSize: "400%" }}
+                style={{ marginTop: "5vh", color: "white", fontSize: "5vw" }}
               >
                 Contact <span style={{ color: "#54c2cc" }}>Me!</span>
               </h1>
@@ -65,7 +65,7 @@ export default function Contact() {
               component="form"
               noValidate
               onSubmit={handleSubmit}
-              sx={{ mt: 3 }}
+              sx={{ mt: "1vw" }}
             >
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>

@@ -13,13 +13,13 @@ const style = {
   display: "flex",
   flexDirection: " column",
   position: "absolute",
-  top: "50%",
-  left: "50%",
+  top: "50vh",
+  left: "50vw",
   transform: "translate(-50%, -50%)",
-  width: 700,
+  width: "25vw",
   bgcolor: "transparent",
-  borderWidth: 0,
-  p: 4,
+  borderWidth: "1vw",
+  p: "1vw",
 };
 
 export default function Elmenus() {
@@ -39,11 +39,15 @@ export default function Elmenus() {
         <Box sx={style}>
           <Button
             style={{
-              width: "10%",
+              width: "5vw",
               alignSelf: "end",
             }}
           >
-            <AiOutlineClose onClick={handleClose} size={30} color="#dfe667" />
+            <AiOutlineClose
+              onClick={handleClose}
+              size={"1vw"}
+              color="#dfe667"
+            />
           </Button>
           <Gallery />
         </Box>
@@ -54,7 +58,7 @@ export default function Elmenus() {
   return (
     <Card
       style={{
-        width: "30rem",
+        width: "20vw",
         fontWeight: "lighter",
       }}
       className="App"

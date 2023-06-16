@@ -9,7 +9,6 @@ export default function skills() {
       style={{
         backgroundColor: "#11242f",
         height: "100vh",
-        paddingBottom: "3%",
       }}
     >
       <Navbar />
@@ -20,7 +19,7 @@ export default function skills() {
           justifyContent: "center",
         }}
       >
-        <h1 style={{ marginTop: "5%", color: "white", fontSize: "400%" }}>
+        <h1 style={{ marginTop: "3vh", color: "white", fontSize: "3vw" }}>
           My <span style={{ color: "#54c2cc" }}>Skills</span>
         </h1>
       </div>
@@ -28,9 +27,9 @@ export default function skills() {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          marginLeft: "15%",
-          marginRight: "15%",
-          marginTop: "3%",
+          marginLeft: "15vw",
+          marginRight: "15vw",
+          marginTop: "8vh",
         }}
       >
         <div className="progress-container">

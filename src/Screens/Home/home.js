@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <Container fluid style={{ backgroundColor: "#11242f" }}>
-      <Row>
+      <Row xs={1}>
         <div className="App">
           <Navbar />
           <div
@@ -31,8 +31,8 @@ export default function Home() {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
-              marginLeft: "5%",
-              marginRight: "10%",
+              marginLeft: "5vw",
+              marginRight: "5vw%",
             }}
           >
             <div
@@ -125,7 +125,7 @@ export default function Home() {
                     <svg
                       style={{
                         color: "#54c2cc",
-                        margin: "5%",
+                        margin: "2VW",
                         height: "2vw",
                         width: "2vw",
                       }}
@@ -145,7 +145,7 @@ export default function Home() {
                 </a>
                 <a
                   href="https://www.upwork.com/freelancers/~01711ce110639cbb41"
-                  style={{ margin: "5%" }}
+                  style={{ margin: "2vw" }}
                 >
                   <SiUpwork size={"2VW"} color="#54c2cc" />
                 </a>
@@ -155,12 +155,11 @@ export default function Home() {
               </div>
             </div>
             <motion.img
-              className="box"
               initial={{ opacity: 0.2, x: "-100%" }}
               animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
               transition={{ duration: 2 }}
               src={require("../../GlobalComponents/pp.jfif")}
-              style={{ height: "20vw", width: "14vw", borderRadius: 50 }}
+              style={{ height: "20vw", width: "14vw", borderRadius: "2vw" }}
             />
           </div>
         </div>
