@@ -57,7 +57,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", color: "#dfe667", fontSize: "2vw" }}
+                style={{ marginTop: "2vw", color: "#dfe667", fontSize: "2vw" }}
               >
                 Front End
                 <Typewriter
@@ -71,7 +71,11 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", flexWrap: "wrap", fontSize: "0.9vw" }}
+                style={{
+                  marginTop: "2vw",
+                  flexWrap: "wrap",
+                  fontSize: "0.9vw",
+                }}
               >
                 I am React/React native developer with experience in Firebase,
                 Redux and API integration. I also have the basic knowledge
@@ -90,10 +94,10 @@ export default function Home() {
                 type="button"
                 className="btn btn-primary"
                 style={{
-                  fontSize: 24,
+                  fontSize: "1vw",
                   alignSelf: "center",
-                  width: "30%",
-                  marginTop: "3%",
+                  width: "15vw",
+                  marginTop: "2vw",
                   backgroundColor: "#54c2cc",
                   color: "white",
                 }}
@@ -108,7 +112,7 @@ export default function Home() {
                 }}
               >
                 <a href="https://www.facebook.com/omarhany4">
-                  <BsFacebook size={35} color="#54c2cc" />
+                  <BsFacebook size={"2VW"} color="#54c2cc" />
                 </a>
 
                 <OverlayTrigger
@@ -122,13 +126,11 @@ export default function Home() {
                       style={{
                         color: "#54c2cc",
                         margin: "5%",
-                        height: 35,
-                        width: 35,
+                        height: "2vw",
+                        width: "2vw",
                       }}
                       ref={ref}
                       {...triggerHandler}
-                      width="25"
-                      height="25"
                       fill="currentColor"
                       className="bi bi-whatsapp"
                       viewBox="0 0 16 16"
@@ -139,16 +141,16 @@ export default function Home() {
                 </OverlayTrigger>
 
                 <a href="https://www.instagram.com/omarhany4/">
-                  <BsInstagram size={35} color="#54c2cc" />
+                  <BsInstagram size={"2VW"} color="#54c2cc" />
                 </a>
                 <a
                   href="https://www.upwork.com/freelancers/~01711ce110639cbb41"
                   style={{ margin: "5%" }}
                 >
-                  <SiUpwork size={35} color="#54c2cc" />
+                  <SiUpwork size={"2VW"} color="#54c2cc" />
                 </a>
                 <a href="https://www.linkedin.com/in/omar-elish-010850a2/">
-                  <AiFillLinkedin size={35} color="#54c2cc" />
+                  <AiFillLinkedin size={"2VW"} color="#54c2cc" />
                 </a>
               </div>
             </div>
@@ -158,7 +160,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
               transition={{ duration: 2 }}
               src={require("../../GlobalComponents/pp.jfif")}
-              style={{ height: "32vw", width: "23vw", borderRadius: 50 }}
+              style={{ height: "20vw", width: "14vw", borderRadius: 50 }}
             />
           </div>
         </div>
