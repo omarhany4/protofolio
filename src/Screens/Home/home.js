@@ -48,7 +48,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2 }}
-                style={{ fontSize: "600%" }}
+                style={{ fontSize: "4vw" }}
               >
                 Hello! , I am Omar Elish
               </motion.h1>
@@ -57,7 +57,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", color: "#dfe667", fontSize: "300%" }}
+                style={{ marginTop: "3%", color: "#dfe667", fontSize: "2vw" }}
               >
                 Front End
                 <Typewriter
@@ -71,7 +71,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: "-10%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3 }}
-                style={{ marginTop: "3%", flexWrap: "wrap", fontSize: "140%" }}
+                style={{ marginTop: "3%", flexWrap: "wrap", fontSize: "0.9vw" }}
               >
                 I am React/React native developer with experience in Firebase,
                 Redux and API integration. I also have the basic knowledge
@@ -158,7 +158,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
               transition={{ duration: 2 }}
               src={require("../../GlobalComponents/pp.jfif")}
-              style={{ height: "30%", borderRadius: 50 }}
+              style={{ height: "32vw", width: "23vw", borderRadius: 50 }}
             />
           </div>
         </div>
