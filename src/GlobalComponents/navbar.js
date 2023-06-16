@@ -4,7 +4,7 @@ import "../App.css";
 export default function Navbar() {
   return (
     <div style={{ backgroundColor: "transparent" }} className="App">
-      <nav className="navbar navbar-expand-sm " style={{ fontSize: "1vw" }}>
+      <nav className="navbar navbar-expand " style={{ fontSize: "1vw" }}>
         <div className="container-fluid">
           <div style={{ marginRight: "55vw", marginLeft: "5vw" }}>
             <div className="App-logo">
