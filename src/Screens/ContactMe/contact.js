@@ -43,7 +43,11 @@ export default function Contact() {
     <div style={{ backgroundColor: "#11242f", height: "100vh" }}>
       <Navbar />
       <ThemeProvider theme={Theme}>
-        <Container component="main" maxWidth="md">
+        <Container
+          component="main"
+          maxWidth="md"
+          sx={{ backgroundColor: "#11242f" }}
+        >
           <CssBaseline />
           <Box
             sx={{
@@ -149,7 +153,7 @@ export default function Contact() {
                 type="submit"
                 fullWidth
                 variant="contained"
-                sx={{ mt: 3, mb: 2 }}
+                sx={{ mt: 3, mb: "1vh" }}
               >
                 Submit
               </Button>

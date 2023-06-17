@@ -28,11 +28,12 @@ export default function Home() {
           <div
             style={{
               height: "100vh",
+              width: "100vm",
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
               marginLeft: "5vw",
-              marginRight: "5vw%",
+              marginRight: "6vw",
             }}
           >
             <div
@@ -40,7 +41,7 @@ export default function Home() {
                 display: "flex",
                 flexDirection: "column",
                 color: "white",
-                width: "60%",
+                width: "50vw",
               }}
             >
               <motion.h1

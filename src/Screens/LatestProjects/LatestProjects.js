@@ -40,9 +40,16 @@ export default function LatestProjects() {
           </h1>
         </Col>
       </Row>
-      <Row style={{ marginTop: "8vh", alignItems: "center" }} xs={1}>
+      <Row
+        style={{
+          marginTop: "8vh",
+          alignItems: "center",
+          backgroundColor: "#11242f",
+        }}
+        xs={1}
+      >
         <Col
-          xs={1}
+          xs={7}
           lg={{ offset: 1, span: 5 }}
           style={{
             display: "flex",
@@ -79,12 +86,13 @@ export default function LatestProjects() {
           </fieldset>
         </Col>
         <Col
-          xs={1}
+          xs={7}
           lg={{ offset: 0, span: 5 }}
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            marginTop: "4vh",
           }}
         >
           <fieldset

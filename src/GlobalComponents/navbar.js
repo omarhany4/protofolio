@@ -6,7 +6,7 @@ export default function Navbar() {
     <div style={{ backgroundColor: "transparent" }} className="App">
       <nav className="navbar navbar-expand " style={{ fontSize: "1vw" }}>
         <div className="container-fluid">
-          <div style={{ marginRight: "55vw", marginLeft: "5vw" }}>
+          <div style={{ marginRight: "45vw", marginLeft: "5vw" }}>
             <div className="App-logo">
               <a
                 className="navbar-brand"

@@ -68,10 +68,10 @@ export default function Elmenus() {
         src={require("../../GlobalComponents/Frame.png")}
       />
       <Card.Body>
-        <Card.Title>
+        <Card.Title style={{ fontSize: "1vw" }}>
           Food Delivery Mobile App for Both Android and IOS
         </Card.Title>
-        <Card.Text>
+        <Card.Text style={{ fontSize: "0.6vw" }}>
           This App was created using React Native with many complicated
           libraries
           <ul>
@@ -93,10 +93,19 @@ export default function Elmenus() {
             </li>
           </ul>
         </Card.Text>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <Button
             variant="primary"
-            style={{ backgroundColor: "#F97700", justifySelf: "center" }}
+            style={{
+              backgroundColor: "#F97700",
+              justifySelf: "center",
+              fontSize: "0.6vw",
+            }}
             onClick={handleOpen}
           >
             Take a look
