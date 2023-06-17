@@ -35,7 +35,12 @@ export default function skills() {
         <div className="progress-container">
           <h1
             className="App"
-            style={{ marginBottom: "10%", alignSelf: "center", color: "white" }}
+            style={{
+              marginBottom: "10%",
+              alignSelf: "center",
+              color: "white",
+              fontSize: "2vw",
+            }}
           >
             Codding <span style={{ color: "#54c2cc" }}>Skills</span>
           </h1>
@@ -47,15 +52,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>HTML</h1>
-            <h1 style={{ fontSize: 24 }}>80%</h1>
+            <h1 style={{ fontSize: "1vw" }}>HTML</h1>
+            <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "80%" }}
@@ -70,15 +75,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>CSS</h1>
-            <h1 style={{ fontSize: 24 }}>80%</h1>
+            <h1 style={{ fontSize: "1vw" }}>CSS</h1>
+            <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "80%" }}
@@ -93,15 +98,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>JavaScript</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: "1vw" }}>JavaScript</h1>
+            <h1 style={{ fontSize: "1vw" }}>95%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "95%" }}
@@ -115,7 +120,12 @@ export default function skills() {
         <div className="progress-container">
           <h1
             className="App"
-            style={{ marginBottom: "10%", alignSelf: "center", color: "white" }}
+            style={{
+              marginBottom: "10%",
+              alignSelf: "center",
+              color: "white",
+              fontSize: "2vw",
+            }}
           >
             Development <span style={{ color: "#54c2cc" }}>Skills</span>
           </h1>
@@ -127,15 +137,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Web development</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: "1vw" }}>Web development</h1>
+            <h1 style={{ fontSize: "1vw" }}>95%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "95%" }}
@@ -150,15 +160,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Mobile App development</h1>
-            <h1 style={{ fontSize: 24 }}>95%</h1>
+            <h1 style={{ fontSize: "1vw" }}>Mobile App development</h1>
+            <h1 style={{ fontSize: "1vw" }}>95%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "95%" }}
@@ -173,15 +183,15 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: 24 }}>Graphic Design</h1>
-            <h1 style={{ fontSize: 24 }}>80%</h1>
+            <h1 style={{ fontSize: "1vw" }}>Graphic Design</h1>
+            <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
             <motion.div
               style={{
                 backgroundColor: "#54c2cc",
-                height: 10,
-                borderRadius: 5,
+                height: "0.5vw",
+                borderRadius: "0.25vw",
                 width: "10%",
               }}
               animate={{ width: "80%" }}
