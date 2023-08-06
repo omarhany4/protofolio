@@ -118,7 +118,7 @@ export default function LatestProjects() {
                 fontSize: "1.3vw",
               }}
             >
-              React Mobile App
+              React Android / IOS
             </legend>
             <Elmenus />
           </fieldset>
