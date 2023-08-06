@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Gallery from "../Skills/Gallery";
 import * as React from "react";
 import Box from "@mui/material/Box";
@@ -13,19 +13,25 @@ const style = {
   display: "flex",
   flexDirection: " column",
   position: "absolute",
-  top: "50%",
-  left: "50%",
+  top: "50vh",
+  left: "50vw",
   transform: "translate(-50%, -50%)",
-  width: 700,
+  width: "25vw",
   bgcolor: "transparent",
-  borderWidth: 0,
-  p: 4,
+  borderWidth: "1vw",
+  p: "1vw",
 };
 
-export default function Netflix() {
+export default function Elmenus() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/`; 
+    navigate(path);
+  }
 
   function MyVerticallyCenteredModal(props) {
     return (
@@ -39,11 +45,15 @@ export default function Netflix() {
         <Box sx={style}>
           <Button
             style={{
-              width: "10%",
+              width: "5vw",
               alignSelf: "end",
             }}
           >
-            <AiOutlineClose onClick={handleClose} size={30} color="#dfe667" />
+            <AiOutlineClose
+              onClick={handleClose}
+              size={"1vw"}
+              color="#dfe667"
+            />
           </Button>
           <Gallery />
         </Box>
@@ -54,44 +64,56 @@ export default function Netflix() {
   return (
     <Card
       style={{
-        width: "30rem",
+        width: "20vw",
         fontWeight: "lighter",
       }}
       className="App"
     >
       <Card.Img
         variant="top"
-        src={require("../../GlobalComponents/Frame.png")}
+        style={{height:'26vh',width:'20vw'}}
+        src={require("../../GlobalComponents/pp2.jpeg")}
       />
       <Card.Body>
-        <Card.Title>Food Delivery App</Card.Title>
-        <Card.Text>
-          This App was created using React Native with many complicated
+        <Card.Title style={{ fontSize: "1vw" }}>
+          This portofolio is created by React Js
+        </Card.Title>
+        <Card.Text style={{ fontSize: "0.6vw" }}>
+          This App was created using React js with many complicated
           libraries
           <ul>
             <li>
-              Redux was used to handle the Cart items and calculate the check
-              out amount
+              many Animations was built inside other animations by framer motion
             </li>
             <li>
               Navigation was prepared for the perfect UI experience featuring
-              modals , stack Navigations nested insid bottom bar Navigation
+              modals , top bar and links.
             </li>
             <li>
-              Flatlist was used for more smooth experience with lighter load and
-              more effieciency
+              Form for contact us page with handling submit and saving submitted data via "formspree.com"
             </li>
             <li>
-              Many APIs were integrated in this app like Google sign-in ,
-              firebase , and much more
+              Portolio can be accessed via link "https://protofolio-zeta.vercel.app/"
+            </li>
+            <li>
+              Social media links can be accessed through icons in the homepage
             </li>
           </ul>
         </Card.Text>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <Button
             variant="primary"
-            style={{ backgroundColor: "#F97700", justifySelf: "center" }}
-            onClick={handleOpen}
+            style={{
+              backgroundColor: "#F97700",
+              justifySelf: "center",
+              fontSize: "0.6vw",
+            }}
+            onClick={routeChange}
           >
             Take a look
           </Button>

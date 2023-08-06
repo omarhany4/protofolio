@@ -65,6 +65,7 @@ export default function Elmenus() {
     >
       <Card.Img
         variant="top"
+        style={{height:'27vh',width:'20vw'}}
         src={require("../../GlobalComponents/Frame.png")}
       />
       <Card.Body>

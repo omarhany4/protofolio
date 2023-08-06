@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Elmenus from "./ElmenusCard";
-import Netflix from "./NetflixCard";
+import Netflix from "./PortofolioCard";
 
 export default function LatestProjects() {
   return (
@@ -45,6 +45,7 @@ export default function LatestProjects() {
           marginTop: "8vh",
           alignItems: "center",
           backgroundColor: "#11242f",
+          height:'50vh'
         }}
         xs={1}
       >
@@ -82,17 +83,16 @@ export default function LatestProjects() {
             >
               React Web App
             </legend>
-            <Elmenus />
+            <Netflix />
           </fieldset>
         </Col>
         <Col
           xs={7}
-          lg={{ offset: 0, span: 5 }}
+          lg={{ offset: 1, span: 5 }}
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: "4vh",
           }}
         >
           <fieldset
@@ -110,15 +110,15 @@ export default function LatestProjects() {
               className="App"
               style={{
                 color: "#54c2cc",
-                marginTop: "-3.8vh",
-                paddingLeft: "1.1vw",
+                marginTop: "-4vh",
+                paddingLeft: "1.8vw",
                 backgroundColor: "#11242f",
-                width: "13vw",
+                width: "15vw",
                 alignSelf: "center",
                 fontSize: "1.3vw",
               }}
             >
-              React Native App
+              React Mobile App
             </legend>
             <Elmenus />
           </fieldset>
