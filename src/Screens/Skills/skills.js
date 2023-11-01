@@ -42,7 +42,7 @@ export default function skills() {
               fontSize: "2vw",
             }}
           >
-            Codding <span style={{ color: "#54c2cc" }}>Skills</span>
+            Coding <span style={{ color: "#54c2cc" }}>Skills</span>
           </h1>
           <div
             className="App"
@@ -52,7 +52,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: "1vw" }}>HTML</h1>
+            <h1 style={{ fontSize: "1vw" }}>Next Js</h1>
             <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
@@ -75,7 +75,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: "1vw" }}>CSS</h1>
+            <h1 style={{ fontSize: "1vw" }}>Tailwind CSS</h1>
             <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
@@ -98,7 +98,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: "1vw" }}>JavaScript</h1>
+            <h1 style={{ fontSize: "1vw" }}>Firebase</h1>
             <h1 style={{ fontSize: "1vw" }}>95%</h1>
           </div>
           <div className="progress-div">
@@ -183,7 +183,7 @@ export default function skills() {
               color: "white",
             }}
           >
-            <h1 style={{ fontSize: "1vw" }}>Graphic Design</h1>
+            <h1 style={{ fontSize: "1vw" }}>Figma</h1>
             <h1 style={{ fontSize: "1vw" }}>80%</h1>
           </div>
           <div className="progress-div">
