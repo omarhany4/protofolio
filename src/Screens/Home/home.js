@@ -51,7 +51,7 @@ export default function Home() {
                 transition={{ duration: 2 }}
                 style={{ fontSize: "4vw" }}
               >
-                Hello! , I am Omar Elish
+                Hello! I am Omar Elish
               </motion.h1>
               <motion.h2
                 className="box"
