@@ -9,11 +9,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+import { PhoneIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 
 const products = [
   {
@@ -62,10 +58,10 @@ export default function NavBar() {
   return (
     <header>
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
+        className="mx-auto flex max-w-full items-center justify-between p-4 lg:px-8"
         aria-label="Global"
       >
-        <div className="App-logo flex lg:flex-1 mx">
+        <div className="App-logo flex lg:flex-1 lg:mx-32">
           <a
             href="/"
             style={{
@@ -148,7 +144,7 @@ export default function NavBar() {
 
           <a
             href="/skills"
-            className="text-xl font-semibold leading-6 no-underline"
+            className="text-2xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
             }}
@@ -157,7 +153,7 @@ export default function NavBar() {
           </a>
           <a
             href="/latestprojects"
-            className="text-xl font-semibold leading-6 no-underline"
+            className="text-2xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
             }}
@@ -166,9 +162,10 @@ export default function NavBar() {
           </a>
           <a
             href="/contactme"
-            className="text-xl font-semibold leading-6 no-underline"
+            className="text-2xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
+              marginRight: 150,
             }}
           >
             Contact Me!
@@ -210,19 +207,19 @@ export default function NavBar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="/skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   Skills
                 </a>
                 <a
-                  href="#"
+                  href="/latestprojects"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   Latest Projects
                 </a>
                 <a
-                  href="#"
+                  href="/contactme"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline"
                 >
                   Contact Me!

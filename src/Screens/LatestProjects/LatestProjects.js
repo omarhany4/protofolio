@@ -44,7 +44,6 @@ export default function LatestProjects() {
         style={{
           alignItems: "center",
           backgroundColor: "#11242f",
-
           justifyContent: "center",
         }}
       >

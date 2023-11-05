@@ -70,7 +70,7 @@ export default function Elmenus() {
     >
       <Card.Img
         variant="top"
-        style={{ height: "26vh" }}
+        style={{ height: "29vh" }}
         src={require("../../GlobalComponents/pp2.jpeg")}
       />
       <Card.Body>
