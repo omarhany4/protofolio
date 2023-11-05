@@ -27,11 +27,11 @@ export default function Elmenus() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    let path = `/`; 
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `/`;
     navigate(path);
-  }
+  };
 
   function MyVerticallyCenteredModal(props) {
     return (
@@ -64,14 +64,13 @@ export default function Elmenus() {
   return (
     <Card
       style={{
-        width: "20vw",
         fontWeight: "lighter",
       }}
       className="App"
     >
       <Card.Img
         variant="top"
-        style={{height:'26vh',width:'20vw'}}
+        style={{ height: "26vh" }}
         src={require("../../GlobalComponents/pp2.jpeg")}
       />
       <Card.Body>
@@ -79,8 +78,7 @@ export default function Elmenus() {
           This portofolio is created by React Js
         </Card.Title>
         <Card.Text style={{ fontSize: "0.6vw" }}>
-          This App was created using React js with many complicated
-          libraries
+          This App was created using React js with many complicated libraries
           <ul>
             <li>
               many Animations was built inside other animations by framer motion
@@ -90,10 +88,12 @@ export default function Elmenus() {
               modals , top bar and links.
             </li>
             <li>
-              Form for contact us page with handling submit and saving submitted data via "formspree.com"
+              Form for contact us page with handling submit and saving submitted
+              data via "formspree.com"
             </li>
             <li>
-              Portolio can be accessed via link "https://protofolio-zeta.vercel.app/"
+              Portolio can be accessed via link
+              "https://protofolio-zeta.vercel.app/"
             </li>
             <li>
               Social media links can be accessed through icons in the homepage

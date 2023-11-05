@@ -42,20 +42,19 @@ export default function LatestProjects() {
       </Row>
       <Row
         style={{
-          marginTop: "8vh",
           alignItems: "center",
           backgroundColor: "#11242f",
-          height:'50vh'
+
+          justifyContent: "center",
         }}
-        xs={1}
       >
         <Col
-          xs={7}
-          lg={{ offset: 1, span: 5 }}
+          lg={{ offset: 1, span: 3 }}
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            width: "20vm",
           }}
         >
           <fieldset
@@ -67,6 +66,7 @@ export default function LatestProjects() {
               display: "flex",
               flexDirection: "column",
               padding: "0.8vw",
+              marginTop: "6vh",
             }}
           >
             <legend
@@ -87,12 +87,12 @@ export default function LatestProjects() {
           </fieldset>
         </Col>
         <Col
-          xs={7}
-          lg={{ offset: 1, span: 5 }}
+          lg={{ offset: 1, span: 3 }}
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            width: "20vm",
           }}
         >
           <fieldset
@@ -104,6 +104,7 @@ export default function LatestProjects() {
               display: "flex",
               flexDirection: "column",
               padding: "0.8vw",
+              marginTop: "6vh",
             }}
           >
             <legend
