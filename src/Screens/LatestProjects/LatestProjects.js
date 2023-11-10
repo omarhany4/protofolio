@@ -53,6 +53,7 @@ export default function LatestProjects() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            justifyContent: "center",
             width: "20vm",
           }}
         >
