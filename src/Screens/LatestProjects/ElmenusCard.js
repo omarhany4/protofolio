@@ -18,7 +18,6 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: "25vw",
   bgcolor: "transparent",
-  borderWidth: "1vw",
   p: "1vw",
 };
 
