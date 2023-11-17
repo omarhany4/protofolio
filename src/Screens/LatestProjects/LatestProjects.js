@@ -33,7 +33,7 @@ export default function LatestProjects() {
               marginTop: "3vh",
               color: "white",
               justifySelf: "center",
-              fontSize: "4vw",
+              fontSize: "3vw",
             }}
           >
             Latest <span style={{ color: "#54c2cc" }}>Projects</span>
