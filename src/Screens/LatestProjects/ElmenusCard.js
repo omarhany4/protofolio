@@ -44,7 +44,7 @@ export default function Elmenus() {
           >
             <AiOutlineClose
               onClick={handleClose}
-              size={"1vw"}
+              size={"3vh"}
               color="#dfe667"
             />
           </Button>
