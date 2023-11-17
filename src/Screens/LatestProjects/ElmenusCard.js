@@ -16,7 +16,7 @@ const style = {
   top: "50vh",
   left: "50vw",
   transform: "translate(-50%, -50%)",
-  width: "25vw",
+  width: "60vh",
   bgcolor: "transparent",
   p: "1vw",
 };

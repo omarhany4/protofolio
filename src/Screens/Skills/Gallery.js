@@ -27,7 +27,7 @@ export default function Gallery() {
       >
         <Carousel.Item>
           <img
-            style={{ borderRadius: 50 }}
+            style={{ borderRadius: "2vh" }}
             className="d-block w-100"
             src={require("./1.PNG")}
             alt="First slide"
