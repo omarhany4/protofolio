@@ -73,7 +73,7 @@ export default function Home() {
               style={{
                 marginTop: "2vw",
                 flexWrap: "wrap",
-                fontSize: "2vw",
+                fontSize: "1.5vw",
               }}
             >
               I am dedicated React/React native developer with experience in
