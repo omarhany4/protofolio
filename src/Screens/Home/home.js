@@ -146,7 +146,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
             transition={{ duration: 2 }}
             src={require("../../GlobalComponents/pp.jfif")}
-            className="flex lg:order-2 my-12 h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
+            className="flex lg:order-2 my-8 h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
           />
         </div>
       </div>
