@@ -2,15 +2,12 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Navbar from "../../GlobalComponents/navbar";
-import { Form } from "react-bootstrap";
 
 const Theme = createTheme({
   palette: {
@@ -36,7 +33,6 @@ export default function Contact() {
 
   return (
     <div style={{ backgroundColor: "#11242f", height: "100vh" }}>
-      <Navbar />
       <ThemeProvider theme={Theme}>
         <Container
           component="main"
@@ -46,7 +42,7 @@ export default function Contact() {
           <CssBaseline />
           <Box
             sx={{
-              marginTop: "1vw",
+              paddingTop: "1vw",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",

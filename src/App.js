@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./GlobalComponents/navbar";
 // Bootstrap Bundle JS
 import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -11,6 +12,7 @@ import LatestProjects from "./Screens/LatestProjects/LatestProjects";
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />

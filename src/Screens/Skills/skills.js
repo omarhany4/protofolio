@@ -6,40 +6,36 @@ import "../../App.css";
 export default function skills() {
   return (
     <div
+      className="h-screen"
       style={{
         backgroundColor: "#11242f",
-        height: "100vh",
       }}
     >
-      <Navbar />
       <div
-        className="App"
+        className="App pt-24  "
         style={{
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <h1 style={{ marginTop: "3vh", color: "white", fontSize: "3vw" }}>
+        <h1 style={{ color: "white", fontSize: "3vw" }}>
           My <span style={{ color: "#54c2cc" }}>Skills</span>
         </h1>
       </div>
       <div
+        className=" mx-12 my-8 lg:mx-32 xl:my-20"
         style={{
           display: "flex",
           justifyContent: "space-between",
-          marginLeft: "15vw",
-          marginRight: "15vw",
-          marginTop: "8vh",
         }}
       >
         <div className="progress-container">
           <h1
-            className="App"
+            className="App text-xs lg:text-3xl xl:text-6xl"
             style={{
               marginBottom: "10%",
               alignSelf: "center",
               color: "white",
-              fontSize: "2vw",
             }}
           >
             Coding <span style={{ color: "#54c2cc" }}>Skills</span>
@@ -117,14 +113,13 @@ export default function skills() {
 
         {/* the second card */}
 
-        <div className="progress-container">
+        <div className="progress-container ">
           <h1
-            className="App"
+            className="App text-xs  lg:text-3xl xl:text-5xl"
             style={{
-              marginBottom: "10%",
               alignSelf: "center",
               color: "white",
-              fontSize: "2vw",
+              marginBottom: "10%",
             }}
           >
             Development <span style={{ color: "#54c2cc" }}>Skills</span>

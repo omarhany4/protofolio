@@ -8,8 +8,6 @@ import Tooltip from "react-bootstrap/Tooltip";
 import { SiUpwork } from "react-icons/si";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -21,18 +19,17 @@ export default function Home() {
   };
 
   return (
-    <Container fluid style={{ backgroundColor: "#11242f", height: "100vh" }}>
-      <div className="App h-full">
-        <Navbar />
+    <div
+      style={{ backgroundColor: "#11242f" }}
+      className="h-screen content-center"
+    >
+      <div className="App content-center ">
         <div
           style={{
-            display: "flex",
-            justifyContent: "space-between",
             marginLeft: "5vw",
             marginRight: "6vw",
-            height: "80vh",
           }}
-          className="lg:items-center "
+          className=" flex justify-around  lg:justify-between items-center content-center  flex-col lg:flex-row  "
         >
           <div
             style={{
@@ -41,6 +38,7 @@ export default function Home() {
               color: "white",
               width: "50vw",
             }}
+            className=" order-2 lg:order-1  "
           >
             <motion.h1
               className="box"
@@ -151,15 +149,17 @@ export default function Home() {
               </a>
             </div>
           </div>
+
           <motion.img
             initial={{ opacity: 0.2, x: "-100%" }}
             animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
             transition={{ duration: 2 }}
             src={require("../../GlobalComponents/pp.jfif")}
-            style={{ height: "20vw", width: "14vw", borderRadius: "2vw" }}
+            style={{ height: "20vw", width: "14vw" }}
+            className="flex lg:order-2 rounded-full lg:rounded-3xl "
           />
         </div>
       </div>
-    </Container>
+    </div>
   );
 }

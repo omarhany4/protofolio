@@ -12,14 +12,9 @@ export default function LatestProjects() {
       fluid
       style={{
         backgroundColor: "#11242f",
-        height: "100vh",
       }}
+      className="h-screen"
     >
-      <Row>
-        <Col>
-          <Navbar />
-        </Col>
-      </Row>
       <Row>
         <Col
           style={{
@@ -28,7 +23,7 @@ export default function LatestProjects() {
           }}
         >
           <h1
-            className="App"
+            className="App pt-24"
             style={{
               marginTop: "3vh",
               color: "white",
