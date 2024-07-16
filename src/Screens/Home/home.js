@@ -46,7 +46,7 @@ export default function Home() {
               initial={{ opacity: 0, x: "-10%" }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 3 }}
-              style={{ marginTop: "2vw", color: "#dfe667" }}
+              style={{ marginTop: "2vh", color: "#dfe667" }}
             >
               Front End
               <Typewriter
@@ -61,7 +61,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 3 }}
               style={{
-                marginTop: "2vw",
+                marginTop: "2vh",
                 flexWrap: "wrap",
               }}
             >
@@ -80,11 +80,10 @@ export default function Home() {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
               type="button"
-              className="btn btn-primary"
+              className="btn btn-primary "
               style={{
-                fontSize: "1vw",
                 alignSelf: "center",
-                width: "15vw",
+                width: "30vh",
                 marginTop: "2vw",
                 backgroundColor: "#54c2cc",
                 color: "white",
@@ -100,7 +99,7 @@ export default function Home() {
               }}
             >
               <a href="https://www.facebook.com/omarhany4">
-                <BsFacebook size={"2VW"} color="#54c2cc" />
+                <BsFacebook size={"3Vh"} color="#54c2cc" />
               </a>
 
               <OverlayTrigger
@@ -111,9 +110,9 @@ export default function Home() {
                   <svg
                     style={{
                       color: "#54c2cc",
-                      margin: "2VW",
-                      height: "2vw",
-                      width: "2vw",
+                      margin: "3Vh",
+                      height: "3vh",
+                      width: "3vh",
                     }}
                     ref={ref}
                     {...triggerHandler}
@@ -127,16 +126,16 @@ export default function Home() {
               </OverlayTrigger>
 
               <a href="https://www.instagram.com/omarhany4/">
-                <BsInstagram size={"2VW"} color="#54c2cc" />
+                <BsInstagram size={"3Vh"} color="#54c2cc" />
               </a>
               <a
                 href="https://www.upwork.com/freelancers/~01711ce110639cbb41"
-                style={{ margin: "2vw" }}
+                style={{ margin: "3vh" }}
               >
-                <SiUpwork size={"2VW"} color="#54c2cc" />
+                <SiUpwork size={"3Vh"} color="#54c2cc" />
               </a>
               <a href="https://www.linkedin.com/in/omar-elish-010850a2/">
-                <AiFillLinkedin size={"2VW"} color="#54c2cc" />
+                <AiFillLinkedin size={"3Vh"} color="#54c2cc" />
               </a>
             </div>
           </div>
@@ -146,7 +145,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
             transition={{ duration: 2 }}
             src={require("../../GlobalComponents/pp.jfif")}
-            className="flex lg:order-2 my-4  h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
+            className="flex lg:order-2 mt-12 mb-4  h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
           />
         </div>
       </div>
