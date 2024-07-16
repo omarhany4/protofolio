@@ -24,14 +24,14 @@ export default function Home() {
       className="h-screen content-center "
     >
       <div className="App content-center ">
-        <div className=" flex justify-around  lg:justify-between items-center content-center  flex-col lg:flex-row mx-12 lg:mx-36  ">
+        <div className=" flex justify-around  lg:justify-between items-center   flex-col lg:flex-row mx-12 lg:mx-36  ">
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               color: "white",
             }}
-            className=" order-2 lg:order-1  max-w-screen-xl "
+            className=" order-2 lg:order-1  max-w-screen-xl content-center "
           >
             <motion.h1
               className="box text-xl lg:text-7xl"
@@ -146,7 +146,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
             transition={{ duration: 2 }}
             src={require("../../GlobalComponents/pp.jfif")}
-            className="flex lg:order-2  h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
+            className="flex lg:order-2 mt-12  h-44 w-36 lg:my-0 lg:h-96 lg:w-64 rounded-full lg:rounded-3xl "
           />
         </div>
       </div>
