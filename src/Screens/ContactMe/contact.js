@@ -32,12 +32,13 @@ export default function Contact() {
   };
 
   return (
-    <div style={{ backgroundColor: "#11242f", height: "100vh" }}>
+    <div style={{ backgroundColor: "#11242f" }}>
       <ThemeProvider theme={Theme}>
         <Container
           component="main"
           maxWidth="md"
           sx={{ backgroundColor: "#11242f" }}
+          className="h-screen"
         >
           <CssBaseline />
           <Box
@@ -50,8 +51,8 @@ export default function Contact() {
           >
             <Typography component="h1" variant="h5">
               <h1
-                className="App"
-                style={{ marginTop: "5vh", color: "white", fontSize: "4vw" }}
+                className="App pt-32"
+                style={{ color: "white", fontSize: "4vw" }}
               >
                 Contact <span style={{ color: "#54c2cc" }}>Me!</span>
               </h1>

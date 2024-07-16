@@ -24,14 +24,14 @@ export default function Home() {
       className="h-screen content-center "
     >
       <div className="App content-center ">
-        <div className=" flex justify-around  lg:justify-between items-center text-center  flex-col lg:flex-row mx-12 lg:mx-36  ">
+        <div className=" flex justify-around  lg:justify-between items-center  flex-col lg:flex-row mx-12 lg:mx-36  ">
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               color: "white",
             }}
-            className=" order-2 lg:order-1  max-w-screen-xl items-center lg:items-start content-center "
+            className=" order-2 lg:order-1  max-w-screen-md items-center lg:items-start content-center "
           >
             <motion.h1
               className="box text-xl lg:text-7xl"

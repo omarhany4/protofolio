@@ -12,18 +12,18 @@ export default function skills() {
       }}
     >
       <div
-        className="App pt-24  "
+        className="App pt-28  "
         style={{
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <h1 style={{ color: "white", fontSize: "3vw" }}>
+        <h1 style={{ color: "white", fontSize: "6vh" }}>
           My <span style={{ color: "#54c2cc" }}>Skills</span>
         </h1>
       </div>
       <div
-        className=" mx-12 my-8 lg:mx-32 xl:my-20"
+        className=" mx-12 my-8 lg:mx-36 "
         style={{
           display: "flex",
           justifyContent: "space-between",

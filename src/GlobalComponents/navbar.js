@@ -18,7 +18,6 @@ export default function NavBar() {
             className="text-2xl flex lg:text-4xl xl:text-6xl  "
             style={{
               color: "#dfe667",
-
               textDecoration: "none",
             }}
           >
@@ -41,7 +40,7 @@ export default function NavBar() {
         <Popover.Group className="hidden 2xl:flex lg:gap-x-12 ">
           <a
             href="/skills"
-            className="text-2xl xl:text-4xl font-semibold leading-6 no-underline"
+            className="text-2xl xl:text-3xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
             }}
@@ -50,7 +49,7 @@ export default function NavBar() {
           </a>
           <a
             href="/latestprojects"
-            className="text-2xl xl:text-4xl font-semibold leading-6 no-underline"
+            className="text-2xl xl:text-3xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
             }}
@@ -59,7 +58,7 @@ export default function NavBar() {
           </a>
           <a
             href="/contactme"
-            className="text-2xl xl:text-4xl font-semibold leading-6 no-underline"
+            className="text-2xl xl:text-3xl font-semibold leading-6 no-underline"
             style={{
               color: "#dfe667",
             }}
