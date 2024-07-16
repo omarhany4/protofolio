@@ -6,7 +6,7 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className=" absolute border-b-8 border-black">
+    <header className=" absolute  shadow-lg">
       <nav
         className=" bg-#dfe667 px-12 py-4 lg:px-36 flex w-screen items-center justify-between  xl:py-16  "
         style={{ backgroundColor: "#11242f" }}
