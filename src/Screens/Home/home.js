@@ -24,28 +24,21 @@ export default function Home() {
       className="h-screen content-center"
     >
       <div className="App content-center ">
-        <div
-          style={{
-            marginLeft: "5vw",
-            marginRight: "6vw",
-          }}
-          className=" flex justify-around  lg:justify-between items-center content-center  flex-col lg:flex-row  "
-        >
+        <div className=" flex justify-around  lg:justify-between items-center content-center  flex-col lg:flex-row mx-12 lg:mx-36  ">
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               color: "white",
-              width: "50vw",
             }}
-            className=" order-2 lg:order-1  "
+            className=" order-2 lg:order-1  max-w-screen-xl "
           >
             <motion.h1
               className="box"
               initial={{ opacity: 0, x: "-10%" }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 2 }}
-              style={{ fontSize: "4vw" }}
+              style={{ fontSize: "4vh" }}
             >
               Hello! I am Omar Elish
             </motion.h1>
@@ -54,7 +47,7 @@ export default function Home() {
               initial={{ opacity: 0, x: "-10%" }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 3 }}
-              style={{ marginTop: "2vw", color: "#dfe667", fontSize: "2vw" }}
+              style={{ marginTop: "2vw", color: "#dfe667", fontSize: "3vh" }}
             >
               Front End
               <Typewriter
@@ -64,14 +57,13 @@ export default function Home() {
               />
             </motion.h2>
             <motion.p
-              className="box"
+              className="box text-lg lg:text-4xl"
               initial={{ opacity: 0, x: "-10%" }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 3 }}
               style={{
                 marginTop: "2vw",
                 flexWrap: "wrap",
-                fontSize: "1.5vw",
               }}
             >
               I am dedicated React/React native developer with experience in
@@ -155,8 +147,8 @@ export default function Home() {
             animate={{ opacity: 1, x: 0, rotate: [0, 0, 0, 0, 0] }}
             transition={{ duration: 2 }}
             src={require("../../GlobalComponents/pp.jfif")}
-            style={{ height: "20vw", width: "14vw" }}
-            className="flex lg:order-2 rounded-full lg:rounded-3xl "
+            style={{ height: "40vh", width: "28vh" }}
+            className="flex lg:order-2 mb-8 rounded-full lg:rounded-3xl "
           />
         </div>
       </div>
